@@ -26,7 +26,7 @@ while True:
 
     # Display the resulting gray
     flippedFrame = cv2.flip(gray,1)
-    cv2.imshow('Video', flippedFrame)
+    cv2.imshow('Video', gray)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
