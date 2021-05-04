@@ -3,6 +3,8 @@
 Webcam-Face-Detect
 ==================
 
+### Close webcam windows with "q"
+
 Run the program like this:
 
 *python webcam.py*
@@ -10,5 +12,10 @@ Run the program like this:
 For gray version: 
 
 *python webcamgray.py*
+
+For black and white version: 
+
+*python blackandwhite.py*
+
 
 
