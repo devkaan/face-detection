@@ -22,10 +22,10 @@ while True:
 
     # Draw a rectangle around the faces
     for (x, y, w, h) in faces:
-        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 200, 0), 2)
+        cv2.rectangle(gray, (x, y), (x+w, y+h), (0, 200, 0), 2)
 
-    # Display the resulting frame
-    flippedFrame = cv2.flip(frame,1)
+    # Display the resulting gray
+    flippedFrame = cv2.flip(gray,1)
     cv2.imshow('Video', flippedFrame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
